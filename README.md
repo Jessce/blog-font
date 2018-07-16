@@ -1,6 +1,6 @@
 # blog1_0
 
-> A test Vue.js project for project-blog
+> the front-part for my blog project
 
 ## Build Setup
 
