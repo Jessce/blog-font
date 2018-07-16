@@ -1,6 +1,8 @@
 # blog1_0
 
-> A test Vue.js project for project-blog
+> the font-part for my blog system
+
+
 
 ## Build Setup
 

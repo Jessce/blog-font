@@ -3,7 +3,7 @@
     <div class="app-head">
       <div class="app-head-inner">
         <router-link :to="{path: '/'}">
-          <img src="../assets/logo.png">
+          <img src="../assets/icon/batman.png">
         </router-link>
         <span class="pages-nav">
            <router-link :to="{path: '/'}"> 
@@ -114,7 +114,7 @@ body {
 }
 .app-head-inner img {
   width: 60px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .head-nav{
   float: right;

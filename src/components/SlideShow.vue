@@ -98,7 +98,7 @@ export default {
   position: relative;
   margin: 50px 15px 15px 95px;
   width: 700px;
-  height: 340px;
+  height: 390px;
   overflow: hidden;
 }
 .slide-show h2 {

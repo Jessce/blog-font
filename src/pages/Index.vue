@@ -7,14 +7,10 @@
 
       <div class="icon-show">
         <div class="icon">
-          <img src="../assets/logo.png" alt="my icon" title="JesseZalman"/>
+          <img src="../assets/icon/spiderman.png" alt="my icon" title="JesseZalman"/>
         </div>
-        <div class="icon-description">
-          <img src="../assets/logo.png" alt="my description"/>
-        </div>
-        <div class="icon-description">
-          <img src="../assets/logo.png" alt="my description"/>
-        </div>
+        <img class="coffe" src="../assets/icon/coffe.png"/><br/>
+        <img class="wifi" src="../assets/icon/wifi.png"/>
       </div>
 
       <div class="post-show">
@@ -51,19 +47,19 @@ export default {
     invTime: 2000,
     slides: [
       {
-        src: require('../assets/slideShow/pic1.jpg'),
+        src: require('../assets/slideShow/javapic.png'),
         href: ''
       },
       {
-        src: require('../assets/slideShow/pic2.jpg'),
-        href: ''
-      },
-      {
-        src: require('../assets/slideShow/pic3.jpg'),
+        src: require('../assets/slideShow/404.jpg'),
         href: ''
       },
       {
         src: require('../assets/slideShow/pic4.jpg'),
+        href: ''
+      },
+      {
+        src: require('../assets/slideShow/gongzhu.jpg'),
         href: ''
       }
     ],  
@@ -105,11 +101,11 @@ h1{
   width: 900px;
 }
 .icon-show{
-  position: absolute;top: 40px; right: 50px;
+  position: absolute;top: 80px; left: 880px;
   float: left;
 }
 .post-show{
-  position: absolute;top: 400px; left: 95px;
+  position: absolute;top: 480px; left: 95px;
   
 }
 .post-categories{
@@ -163,5 +159,18 @@ h1{
   -webkit-margin-start: auto;
   -webkit-margin-end: auto;
   overflow: hidden;
+}
+img{
+  width: 260px;
+}
+.wifi{
+  margin-top: 40px;
+  margin-left: 60px;
+  width: 130px;
+}
+.coffe{
+  margin-top: 10px;
+  margin-left: 60px;
+  width: 130px;
 }
 </style>
