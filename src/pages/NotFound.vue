@@ -7,7 +7,7 @@
     <router-link :to="{path:'/'}">
     <span class="goback">Go Back —— </span><br/>
     </router-link>
-    <img src="../assets/404/404.jpg"/>
+    <img src="@/assets/404/404.jpg"/>
  </div>
 </template>
 

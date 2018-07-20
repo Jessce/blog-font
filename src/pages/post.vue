@@ -13,7 +13,7 @@ export default {
   data () {
     return {
     post:{},
-	  url:'http://127.0.0.1:8081/blog/client/articles/article?ArticleId='+this.id,
+	  url:'http://60.205.185.66:8081/blog/client/articles/article?ArticleId='+this.id,
     }
   },
    created() {

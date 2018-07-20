@@ -2,7 +2,7 @@
  <div class="post">
    <div class="title">{{title}}</div>
    <div class="content">{{content}}</div>
-   <img class="cat" src="../assets/icon/cat.png">
+   <img class="cat" src="@/assets/icon/cat.png">
  </div>
 </template>
 

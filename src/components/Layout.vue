@@ -3,7 +3,7 @@
     <div class="app-head">
       <div class="app-head-inner">
         <router-link :to="{path: '/'}">
-          <img src="../assets/icon/batman.png">
+          <img src="@/assets/icon/batman.png">
         </router-link>
         <span class="pages-nav">
            <router-link :to="{path: '/'}"> 
@@ -17,8 +17,8 @@
            </router-link>
         </span>
         <div class="head-nav">
-          <a href="http://127.0.0.1:8081/blog/admin/index" class="submit-login" target="_blank">
-          Login</a>
+          <a href="http://60.205.185.66:8081/blog/admin/index" class="submit-login" target="_blank">
+          Login</a> 
         </div>  
       </div>
     </div>

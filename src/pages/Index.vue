@@ -1,18 +1,15 @@
 <template>
  <div class="app">
-
       <div class="slider">
        <slide-show :slides="slides" :inv="invTime"></slide-show>
       </div>
-
       <div class="icon-show">
         <div class="icon">
-          <img src="../assets/icon/spiderman.png" alt="my icon" title="JesseZalman"/>
+          <img src="@/assets/icon/spiderman.png" alt="my icon" title="JesseZalman"/>
         </div>
-        <img class="coffe" src="../assets/icon/coffe.png"/><br/>
-        <img class="wifi" src="../assets/icon/wifi.png"/>
+        <img class="coffe" src="@/assets/icon/coffe.png"/><br/>
+        <img class="wifi" src="@/assets/icon/wifi.png"/>
       </div>
-
       <div class="post-show">
         <span 
           class="post-categories"
@@ -30,13 +27,11 @@
           </p>
         </div>
       </div>
-      
-
  </div> 
 </template>
 
 <script>
-import slideShow from '../components/SlideShow'
+import slideShow from '@/components/SlideShow'
 export default {
   name: 'Index',
   components: {
@@ -47,26 +42,26 @@ export default {
     invTime: 2000,
     slides: [
       {
-        src: require('../assets/slideShow/javapic.png'),
+        src: require('@/assets/slideShow/javapic.png'),
         href: ''
       },
       {
-        src: require('../assets/slideShow/404.jpg'),
+        src: require('@/assets/slideShow/404.jpg'),
         href: ''
       },
       {
-        src: require('../assets/slideShow/pic4.jpg'),
+        src: require('@/assets/slideShow/pic4.jpg'),
         href: ''
       },
       {
-        src: require('../assets/slideShow/gongzhu.jpg'),
+        src: require('@/assets/slideShow/gongzhu.jpg'),
         href: ''
       }
     ],  
 	  content:{},
 	  categories:{},
 	  currentIndex:0,
-	  url:'http://127.0.0.1:8081/blog/client/articles/list',
+	  url:'http://60.205.185.66:8081/blog/client/articles/list',
     }
   },
   computed:{
