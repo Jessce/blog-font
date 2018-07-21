@@ -1,12 +1,6 @@
 # blog1_0
 
-<<<<<<< HEAD
-> the font-part for my blog system
-
-
-=======
 > the front-part for my blog project
->>>>>>> c45752d09dcfc8890edc5fde92485ece528577ef
 
 ## Build Setup
 
