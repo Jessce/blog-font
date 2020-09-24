@@ -1,13 +1,9 @@
 # blog1_0
 
-<<<<<<< HEAD
-> the front-part for my blog system
+HEAD
 
-
-=======
-> the front-part for my blog project
->
-> >>>>>> c45752d09dcfc8890edc5fde92485ece528577ef
+the front-part for my blog project
+Update README.md
 
 ## Build Setup
 
